@@ -42,7 +42,8 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 //images
+let codeSnippet = document.getElementById('cta-img');codeSnippet.setAttribute('src', siteContent['cta']['img-src'] );
 
-
+let screenCode = document.getElementById('middle-img');screenCode.setAttribute('src', siteContent['main-content']['middle-img-src']);
 
 //navigation
